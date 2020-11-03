@@ -3,7 +3,7 @@ import pythagorean
 
 class TestStringMethods(unittest.TestCase):
 
-    def test_theorem(self):
+    def test_three_four_five_triangle(self):
         a = 3
         b = 4
         expected_c = 5
