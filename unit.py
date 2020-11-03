@@ -3,7 +3,7 @@ import pythagorean
 
 class TestStringMethods(unittest.TestCase):
 
-    def test_upper(self):
+    def test_theorem(self):
         a = 3
         b = 4
         expected_c = 5
