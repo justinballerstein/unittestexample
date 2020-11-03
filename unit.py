@@ -13,5 +13,15 @@ class TestStringMethods(unittest.TestCase):
         # assert
         self.assertEqual(c, expected_c)
 
+    def test_zero_length_side(self):
+        # arrange
+        a = 3
+        b = 0
+        expected_c = None
+        # act
+        c = pythagorean.Pythagorean.theorem(a,b)
+        # assert
+        self.assertEqual(c, expected_c)
+
 if __name__ == '__main__':
     unittest.main()
