@@ -1,8 +1,8 @@
 import fileinput
 import pythagorean
 
-a = input('Enter a:')
-b = input('Enter b:')
+a = int(input('Enter a:'))
+b = int(input('Enter b:'))
 
 c = pythagorean.Pythagorean.theorem(a,b)
 
