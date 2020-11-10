@@ -3,7 +3,7 @@ import pythagorean
 
 a = int(input('Enter a:'))
 b = int(input('Enter b:'))
-
-c = pythagorean.Pythagorean.theorem(a,b)
+py = pythagorean.Pythagorean()
+c = py.theorem(a,b)
 
 print("c is:" + str(c))

@@ -1,7 +1,7 @@
 import math
 
 class Pythagorean:
-    def theorem(a,b):
+    def theorem(self, a,b):
         if (a <= 0):
             return None
         if (b <= 0):
